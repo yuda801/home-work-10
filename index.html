@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Callbacks</title>
+</head>
+
+<body onload="runNumbersInbox()">
+    <button class="my-btn" onclick="runCode()">Run Code!</button><br>
+
+
+    <p>showing numbers up to this number: </p>
+    <input type="number" value="56" id="input-box" size="40"><br>
+    <div id="box-for-random"></div>
+
+    <button onclick="changeBGColor()">change background color!</button>
+    <br>
+    <button onclick="callForRandomNumber()">get a random number!</button>
+    <button onclick="callForRandomPlusLimit()">get a random up to a limit!</button>
+    <button onclick="runCode2()">get user ID</button>
+    <button onclick="runCode3()">get the grades!</button>
+    <p id="grade"></p>
+    <script src="script.js"></script>
+</body>
+
+</html>

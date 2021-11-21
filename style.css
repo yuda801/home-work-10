@@ -1,0 +1,18 @@
+body {
+    /* background-color: lemonchiffon; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+#box-for-random {
+    height: 30px;
+    width: 50px;
+    border: ridge 2px goldenrod;
+}
+
+input {
+    width: 50px;
+}
